@@ -5,8 +5,8 @@ After=network.target
 [Service]
 User=ubuntu
 Group=www-data
-WorkingDirectory=/home/ubuntu/blogprojectdrf
-ExecStart=/home/ubuntu/env/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/ubuntu/blogprojectdrf/blog/blog.sock blog.wsgi:application
+WorkingDirectory=/home/ubuntu/neo-lisa
+ExecStart=/home/ubuntu/env/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/ubuntu/neo-lisa/Service_1/Service_1.sock Service_1.wsgi:application
 
        
 [Install]
