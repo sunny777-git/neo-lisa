@@ -137,7 +137,7 @@ REST_FRAMEWORK = {
 CORS_ALLOW_HEADERS = ['*']
 CORS_ORIGIN_ALLOW_ALL = True
 
-SERVICE_1_SESSION_ID = "servoce_1"
+SERVICE_1_SESSION_ID = "service_1"
 # AUTH_USER_MODEL = "usermanager.User"
 MediaDir="/uploads"
 MEDIA_ROOT  = os.path.join(BASE_DIR, 'uploads')
